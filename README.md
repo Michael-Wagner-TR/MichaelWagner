@@ -1,8 +1,8 @@
-#Automatic Prompt Evaluation and Improvement for Temporal Analysis of User Queries.
+## Automatic Prompt Evaluation and Improvement for Temporal Analysis of User Queries.
 
-#This repository contains information for both date extraction from a single query, as well as a prompt self improvement loop
+This repository contains information for both date extraction from a single query, as well as a prompt self improvement loop
 
-#Example usage for pure date extraction
+# Example usage for pure date extraction
 
 from Pure_Date_Extraction import describeVideo
 
@@ -11,7 +11,7 @@ date_info = describeVideo(user_prompt)
 print(date_info)
 
 
-#Examples usage for the self improvement loop
+# Examples usage for the self improvement loop
 
 from date_extraction_loop import prompt_loop
 
